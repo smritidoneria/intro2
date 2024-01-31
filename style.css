@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    background-color:  rgb(137, 135, 132);
+}
+
+#image-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 100%;
+    animation: show 500ms forwards;
+}
+
+.show {
+    animation: show 500ms forwards;
+
+}
+
+.center {
+    text-align: center;
+}
+
+#table{
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+}
+@keyframes show {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: 100%;
+}
+
+.left-section {
+    flex: 1; 
+    margin-right: 20px; 
+    padding: 20px; 
+    background-color: #a08d8d ; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column; 
+    height: 100%;
+}
+
+.left-section img {
+    display: block;
+    width: 100%;
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+    height: 30%;
+}
+
+.right-section {
+    flex: 2; 
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.right-section .section {
+    width: calc(100% - 120px);  
+    margin-bottom: 20px; 
+    margin-right: 100px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+.right-section .section:hover {
+    transform: scale(1.1); 
+}
+
+
+
+.educational-background {
+    background-color: #9191b3; 
+}
+
+.technical-skills {
+    background-color: #9191b3;
+}
+
+.projects {
+    background-color: #9191b3;
+}
+
+.hobbies {
+    background-color: #9191b3; 
+}
+
+.achievements {
+    background-color: #9191b3; 
+}
+
+.contacts {
+    background-color:#9191b3; 
+}
+
+
+.section h3 {
+    margin-top: 0; 
+    color: #fff; 
+}
+
+
+
+.find {
+    padding: 20px;
+    background-color: #3d3a3a;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.find h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.find a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.find a i {
+    margin-right: 10px;
+}
+
+
